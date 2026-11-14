@@ -95,7 +95,10 @@ struct WhoopRace: StaticPage {
                 .padding(.leading, 20)
             }
         }
-        .style(.backgroundImage, "linear-gradient(180deg,#1f9fb6 0%,#1a5f9e 55%,#101c3f 100%)")
+        .style(.backgroundImage, "linear-gradient(rgba(54,59,61,0.8),rgba(54,59,61,0.8)),url('/images/headerimage.jpg')")
+        .style(.backgroundSize, "cover")
+        .style(.backgroundPosition, "bottom")
+//      linear-gradient(180deg,#1f9fb6 0%,#1a5f9e 55%,#101c3f 100%),
         .style(.borderRadius, "0 0 40px 40px")
         .padding(.top, 80)
         .padding(.bottom, 60)
@@ -152,7 +155,7 @@ struct WhoopRace: StaticPage {
                     Text("Free")
                         .font(.title5)
                         .foregroundStyle(AppInfo.secondary)
-                    Text("Learn flying in the tutorial, build own tracks and share them with up to five friends.")
+                    Text("Learn flying in the tutorial, build own tracks and race them with up to five friends.")
                         .foregroundStyle(.light)
                 }
                 .width(6)
