@@ -16,11 +16,10 @@ struct WhoopRace: StaticPage {
         Feature(title: "Learn to fly",        description: "Ten short lessons take you from the first take-off to a personal best on your own track.", icon: "mortarboard-fill"),
         Feature(title: "Build your tracks",   description: "Put pipes, gates and poles together in the Track Builder, then test-fly right away.",  icon: "bricks"),
         Feature(title: "Angle, Horizon, Acro", description: "Start in Angle mode, move on to Horizon and Acro, and tune your own rates.",          icon: "sliders"),
-        Feature(title: "Race your friends",   description: "Share a track with a link and compare times on your own friends leaderboard.",         icon: "people-fill"),
-        Feature(title: "Chase the ghost",     description: "Race a ghost of your best run or of a faster pilot, and watch any run as a replay.",   icon: "stopwatch-fill"),
+        Feature(title: "Race your friends",   description: "Share a track with with friends and compare your times the leaderboard.",         icon: "people-fill"),
+        Feature(title: "Replay your run",     description: "Rewatch any flight and share a video.",   icon: "stopwatch-fill"),
         Feature(title: "Community tracks",    description: "Publish your tracks to the gallery and fly what other pilots have built.",             icon: "globe"),
         Feature(title: "Timed challenges",    description: "Fly the current challenge track and get a note when someone beats your time.",         icon: "trophy-fill"),
-        Feature(title: "No account needed",   description: "Your tracks and times sync through your own iCloud. No sign-up, no ads, no tracking.", icon: "cloud-check-fill"),
     ]
 
     var body: some HTML {
@@ -32,7 +31,7 @@ struct WhoopRace: StaticPage {
                         Image(decorative: "/images/iphoneFrame black.png")
                             .resizable()
                             .frame(height: 520)
-                        Image(decorative: "/images/screenshotWhoopRace.png")
+                        Image(decorative: "/images/screenshotWhoopRace.jpg")
                             .resizable()
                             .frame(height: 500)
                             .style(.borderRadius, "22px")
@@ -153,7 +152,7 @@ struct WhoopRace: StaticPage {
                     Text("Free")
                         .font(.title5)
                         .foregroundStyle(AppInfo.secondary)
-                    Text("Flying, the tutorial, building tracks and sharing them with friends, with leaderboards and ghosts.")
+                    Text("Learn flying in the tutorial, build own tracks and share them with up to five friends.")
                         .foregroundStyle(.light)
                 }
                 .width(6)
@@ -162,7 +161,7 @@ struct WhoopRace: StaticPage {
                     Text("With a subscription")
                         .font(.title5)
                         .foregroundStyle(AppInfo.secondary)
-                    Text("The community gallery (publish, browse and fly public tracks) and all timed challenges.")
+                    Text("Race pilots around the world, find exciting tracks and make yourself known in the leaderboards.")
                         .foregroundStyle(.light)
                 }
                 .width(6)
