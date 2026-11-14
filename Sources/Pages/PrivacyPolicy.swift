@@ -32,7 +32,7 @@ struct PrivacyPolicy: StaticPage {
             .foregroundStyle(.light)
             .margin(.top, 30)
 
-        Text("This Privacy Policy describes which data the app 'WhoopRace' and this website process, and what for. WhoopRace has no user accounts, no advertising, no analytics and no tracking by third parties.")
+        Text("This Privacy Policy describes which data the app 'WhoopRace' and this website process, and what for.")
             .foregroundStyle(.light)
             .margin(.top, 10)
 
@@ -157,7 +157,7 @@ struct PrivacyPolicy: StaticPage {
             .font(.title3)
             .foregroundStyle(.light)
 
-        Text("Diese Datenschutzerklärung beschreibt, welche Daten die App \"WhoopRace\" und diese Website verarbeiten und wofür. WhoopRace hat keine Benutzerkonten, keine Werbung, keine Analyse-Dienste und kein Tracking durch Dritte.")
+        Text("Diese Datenschutzerklärung beschreibt, welche Daten die App \"WhoopRace\" und diese Website verarbeiten und wofür.")
             .foregroundStyle(.light)
             .margin(.top, 10)
 
