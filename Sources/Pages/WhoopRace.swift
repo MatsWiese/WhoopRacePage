@@ -16,7 +16,7 @@ struct WhoopRace: StaticPage {
         Feature(title: "Learn to fly",        description: "Ten short lessons take you from the first take-off to a personal best on your own track.", icon: "mortarboard-fill"),
         Feature(title: "Build your tracks",   description: "Put pipes, gates and poles together in the Track Builder, then test-fly right away.",  icon: "wrench-adjustable"),
         Feature(title: "Angle, Horizon, Acro", description: "Start in Angle mode, move on to Horizon and Acro, and tune your own rates.",          icon: "sliders"),
-        Feature(title: "Race your friends",   description: "Share a track with with friends and compare your times the leaderboard.",         icon: "people-fill"),
+        Feature(title: "Race your friends",   description: "Share a track with with friends and compare your times on the leaderboard.",         icon: "people-fill"),
         Feature(title: "Replay your run",     description: "Rewatch any flight and share a video.",   icon: "play-btn-fill"),
         Feature(title: "Community tracks",    description: "Publish your tracks to the gallery and fly what other pilots have built.",             icon: "globe"),
 //        Feature(title: "Timed challenges",    description: "Fly the current challenge track and get a note when someone beats your time.",         icon: "trophy-fill"),
